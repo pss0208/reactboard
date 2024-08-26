@@ -70,7 +70,7 @@
 
     <update id="updateBoard" parameterType="com.example.reactboard.entity.BoardEntity">
         UPDATE TB_BOARD
-        SET TITLE = #{totle}
+        SET TITLE = #{title}
         , CONTENTS = #{contents}
         WHERE IDX = #{idx}
     </update>
